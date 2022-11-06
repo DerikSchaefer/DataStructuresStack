@@ -42,6 +42,8 @@ namespace DSA
             return (top == stackArray.Length - 1);
         }
 
+
+        // pushes a new element on to the arrayStack
         public void Push(int x)
         {
             if (isFull())
